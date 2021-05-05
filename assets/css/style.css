@@ -185,11 +185,11 @@ p {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  z-index: 997;
+
   padding: 15px 0;
   background-color: #fff;
-  top: -100%;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+  top: 0%;
+  /*box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);*/
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -326,10 +326,10 @@ p {
   }
 }
 
-/**
-* Mobile Navigation 
+
+/* Mobile Navigation 
 */
-.mobile-nav-toggle {
+ .mobile-nav-toggle {
   color: #4b4a4a;
   font-size: 28px;
   cursor: pointer;
@@ -430,7 +430,7 @@ p {
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
-}
+} 
 
 /*-------------------
 /* The sidebar menu */
@@ -634,7 +634,7 @@ p {
 
 #about .about-descr .p-heading {
   font-family: 'Raleway', Helvetica;
-  font-weight: 800;
+  font-weight: 1000;
   line-height: 40px;
   font-size: 32px;
   text-align: left;
@@ -651,7 +651,10 @@ p {
   margin-bottom: 0;
   text-align: left;
 }
-
+.news:hover
+{
+  opacity: 0.5;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
