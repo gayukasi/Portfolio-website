@@ -542,7 +542,7 @@ opacity: 0.5;
 
 .org
 {
-  border-bottom: solid 1px #aaa; 
+  border-bottom: solid 1px #000; 
   margin-bottom: 3px;
   text-decoration: none;
 }
@@ -552,6 +552,17 @@ opacity: 0.5;
   font-weight: 600;
   border-bottom: solid 1px #000; 
   margin-bottom: 3px;
+}
+
+/* Videooo */
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
