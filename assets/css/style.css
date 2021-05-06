@@ -1289,6 +1289,7 @@ blockquote {
   #about .about-descr .p-heading {
     font-size: 20px;
     line-height: 40px;
+    font-weight: 600;
   }
   #about .about-descr .separator {
     max-width: 100%;
@@ -1386,6 +1387,18 @@ blockquote {
     display: inline-block;
   }
 }
+/* About Me */
+.hobbies 
+{
+  border-bottom: solid 2px #000;
+}
+
+.hobbies:hover 
+{
+  background-color: #222;
+  color: #FFF;
+}
+
 
 /** Width between 600px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
