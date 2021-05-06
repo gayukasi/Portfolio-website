@@ -524,18 +524,34 @@ p {
   color: #fff;
   font-size: 15px;
 }
+
 #social
 {
   margin-right: 15px;
 
 }
-#social:hover after{
-  color: #05BFF2;
+#social:hover
+{
+opacity: 0.5;
 }
 #blueunderline
 {
   border-bottom: #05BFF2;
   padding-bottom: 4px;
+}
+
+.org
+{
+  border-bottom: solid 1px #aaa; 
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+.org:hover
+{
+  font-weight: 600;
+  border-bottom: solid 1px #000; 
+  margin-bottom: 3px;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
