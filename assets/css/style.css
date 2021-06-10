@@ -785,6 +785,22 @@ opacity: 0.5;
   color: #FFF;
   text-decoration-color: #FFF;
 }
+#weblink2
+{
+  border-bottom: solid 1px #FFF;
+  color: #FFF;
+
+
+}
+#weblink2:hover
+{
+  border-bottom: solid 3px #FFBE5C;
+  font-weight: 800;
+  color: #FFBE5C;
+
+}
+
+
 
 
 #portfolio #portfolio-flters {
