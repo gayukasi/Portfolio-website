@@ -214,6 +214,7 @@
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item',
+        filter: '.all',
         layoutMode: 'fitRows'
       });
 
@@ -235,12 +236,27 @@
 
   });
 
+/*   document.getElementById("openurl").onclick = function () {
+    // location.href = "https://www.youtube.com/";
+    window.open('https://www.youtube.com', '_blank');
+  };  
+ */
   /**
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
+
+    /**
+   * GOOGLE ANALYTICS - TRACKING
+   */
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MEYLDW94T3');
 
   /**
    * Portfolio details slider
